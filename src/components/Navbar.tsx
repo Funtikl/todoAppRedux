@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { AiOutlineCheck } from 'react-icons/ai';
-let navItems : string[] = ['Inbox', 'Today', 'Tomorrow', 'Calendar'] 
+
 
 function Navbar() {
   return (
