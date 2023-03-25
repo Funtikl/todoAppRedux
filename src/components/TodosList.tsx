@@ -57,14 +57,15 @@ function TodosList({ todo, handleChecked }: Props) {
         {show && (
           <>
             <input
-              className="bg-green-100"
+            placeholder="Edit task here"
+              className="bg-green-100 pl-2 mt-1"
               value={update}
               type="text"
               onChange={passChangeToState}
             />
             <BsFillArrowRightCircleFill
               onClick={() => sendUpdateToRedux(todo)}
-              className="text-green-700 text-2xl relative right-10"
+              className="text-green-700 text-xl relative left-[360px] cursor-pointer -top-[22px] right-10"
             />
           </>
         )}

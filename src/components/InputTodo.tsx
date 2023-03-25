@@ -31,7 +31,7 @@ function InputTodo() {
         onKeyDown={handleKeyDown}
         name="todo"
         placeholder="Type..."
-        className="w-[500px] p-2 px-2 rounded border-r-2 focus:ring  focus:ring-green-700 focus:outline-none drop-shadow-lg"
+        className="hover:animate-type-reverse w-[500px] p-2 px-2 rounded border-r-2 focus:ring  focus:ring-green-700 focus:outline-none drop-shadow-lg"
       />
       <button type="submit" onClick={addTask}>
       <BsFillArrowRightCircleFill className="text-green-700 text-2xl relative right-10"  />

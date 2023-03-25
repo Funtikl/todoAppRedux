@@ -9,9 +9,6 @@ function Navbar() {
         <h1 className='font-bold flex gap-1 hover:text-white'>Todo App<AiOutlineCheck/></h1>
         <ul className='flex gap-5'>
           <li className='hover:text-white'><Link to='/'>Inbox</Link></li>
-          <li className='hover:text-white'><Link to='/today'>Today</Link></li>
-          <li className='hover:text-white'><Link to='/tomorrow'>Tomorrow</Link></li>
-          <li className='hover:text-white'><Link to='/calendar'>Calendar</Link></li>
         </ul>
     </div>
   )
